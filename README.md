@@ -1,1 +1,1 @@
-# ohtu-2020
+# ohtu-2020-tehtavat
