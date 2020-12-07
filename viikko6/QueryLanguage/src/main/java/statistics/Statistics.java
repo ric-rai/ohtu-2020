@@ -1,5 +1,6 @@
 package statistics;
 
+import statistics.matcher.All;
 import statistics.matcher.Matcher;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -50,8 +51,7 @@ public class Statistics {
     }
     
     public List<Player> matches(Matcher matcher) {
-        ArrayList<Player> matches = new ArrayList<Player>();
-        
+        ArrayList<Player> matches = new ArrayList<>();
         for (Player player : players) {
             if (matcher.matches(player)) {
                 matches.add(player);
